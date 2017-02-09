@@ -1,8 +1,7 @@
-package com.theironyard;
-
 import com.github.javaparser.ParseException;
 import net.doughughes.testifier.exception.CannotAccessMethodException;
 import net.doughughes.testifier.exception.CannotFindMethodException;
+import net.doughughes.testifier.exception.CannotInvokeMethodException;
 import net.doughughes.testifier.matcher.RegexMatcher;
 import net.doughughes.testifier.output.OutputStreamInterceptor;
 import net.doughughes.testifier.test.TestifierTest;
@@ -32,7 +31,7 @@ public class ExampleTest extends TestifierTest {
             /* assert */
             assertFalse("not(true) should be false", notTrue);
             assertTrue("not(false) should be true", notFalse);
-        } catch (CannotFindMethodException | CannotAccessMethodException e) {
+        } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
             fail(e.getMessage());
         }
     }
@@ -49,7 +48,7 @@ public class ExampleTest extends TestifierTest {
             /* assert */
             assertThat("5 doubled plus 1 should be 11",
                     result, equalTo(11));
-        } catch (CannotFindMethodException | CannotAccessMethodException e) {
+        } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
             fail(e.getMessage());
         }
 
@@ -67,7 +66,7 @@ public class ExampleTest extends TestifierTest {
             /* assert */
             assertThat("Average of 333.333 and 555.555 should be (very close to) 444.444",
                     result, closeTo(444.444, 0.001));
-        } catch (CannotFindMethodException | CannotAccessMethodException e) {
+        } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
             fail(e.getMessage());
         }
 
@@ -85,7 +84,7 @@ public class ExampleTest extends TestifierTest {
             /* assert */
             assertThat("The greeting for 'Tracy Kerry' should be 'Hello, Tracy Kerry!'",
                     result, equalTo("Hello, Tracy Kerry!"));
-        } catch (CannotFindMethodException | CannotAccessMethodException e) {
+        } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
             fail(e.getMessage());
         }
 
@@ -106,7 +105,7 @@ public class ExampleTest extends TestifierTest {
                     out.getPrinted().size(), equalTo(1));
             assertThat("Saying hello to 'Kerry Tracy' should print 'Hello, Kerry Tracy!' to the console.",
                     out.getPrinted().get(0), equalTo("Hello, Kerry Tracy!"));
-        } catch (CannotFindMethodException | CannotAccessMethodException e) {
+        } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
             fail(e.getMessage());
         }
     }
