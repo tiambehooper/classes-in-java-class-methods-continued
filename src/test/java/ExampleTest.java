@@ -6,12 +6,14 @@ import net.doughughes.testifier.matcher.RegexMatcher;
 import net.doughughes.testifier.output.OutputStreamInterceptor;
 import net.doughughes.testifier.test.TestifierTest;
 import net.doughughes.testifier.util.Invoker;
+import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.*;
@@ -102,7 +104,7 @@ public class ExampleTest extends TestifierTest {
             /* assert */
             OutputStreamInterceptor out = (OutputStreamInterceptor) System.out;
             assertThat("The sayHello() method should have printed output to the console.",
-                    out.getPrinted().size(), equalTo(1));
+                    out.getPrinted().size(), greaterThanOrEqualTo(1));
             assertThat("Saying hello to 'Kerry Tracy' should print 'Hello, Kerry Tracy!' to the console.",
                     out.getPrinted().get(0), equalTo("Hello, Kerry Tracy!"));
         } catch (CannotInvokeMethodException | CannotFindMethodException | CannotAccessMethodException e) {
