@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748defff-9a0f-4be5-951a-a6ca43a84d1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes-in-java-class-methods-continued.iml" afterPath="$PROJECT_DIR$/classes-in-java-class-methods-continued.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ExampleTest.java" afterPath="$PROJECT_DIR$/src/test/java/ExampleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Example.java" afterPath="$PROJECT_DIR$/src/main/java/Example.java" />
     </list>
     <ignored path="classes-in-java-class-methods-continued.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +25,12 @@
     <favorites_list name="classes-in-java-class-methods-continued" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Example.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="95" column="74" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -44,13 +44,11 @@
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
+        <entry key="$USER_HOME$/BookPub" value="1459007692000" />
         <entry key="$USER_HOME$/Downloads/jdk1.8.0_73/demo/javafx_samples/src/Ensemble8" value="1454098602000" />
-        <entry key="$PROJECT_DIR$/../../BookPub" value="1459007692000" />
-        <entry key="$PROJECT_DIR$/../../GameTrackerSpring" value="1463263962000" />
-        <entry key="$PROJECT_DIR$/../../HelloSpring" value="1463407320000" />
-        <entry key="$PROJECT_DIR$/../../Old/tiy-java-spring-boot-gradle-heroku-template" value="1470585368000" />
-        <entry key="$PROJECT_DIR$/../../WorkoutTracker" value="1463491253000" />
-        <entry key="$PROJECT_DIR$/../../java-assignments/projects/CalendarSpring" value="1459278086000" />
+        <entry key="$USER_HOME$/GameTrackerSpring" value="1463263962000" />
+        <entry key="$USER_HOME$/HelloSpring" value="1463407320000" />
+        <entry key="$USER_HOME$/Old/tiy-java-spring-boot-gradle-heroku-template" value="1470585368000" />
         <entry key="$USER_HOME$/Scratch/CalendarSpring" value="1464188290000" />
         <entry key="$USER_HOME$/Scratch/HerokuJava/IronGram" value="1464271856000" />
         <entry key="$USER_HOME$/Scratch/HerokuJava/tiy-java-gradle-template" value="1464199440000" />
@@ -62,6 +60,8 @@
         <entry key="$USER_HOME$/Scratch/students/dane/crudSpring" value="1468586817000" />
         <entry key="$USER_HOME$/Scratch/students/dane/microblogSpring" value="1468585594000" />
         <entry key="$USER_HOME$/Scratch/tiy-java-gradle-template" value="1464274952000" />
+        <entry key="$USER_HOME$/WorkoutTracker" value="1463491253000" />
+        <entry key="$USER_HOME$/java-assignments/projects/CalendarSpring" value="1459278086000" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Example.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/theironyard/ExampleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Example.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExampleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Example.java" />
       </list>
     </option>
   </component>
@@ -108,10 +108,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
     <option name="y" value="23" />
-    <option name="width" value="1635" />
-    <option name="height" value="1027" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,8 +128,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,6 +178,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,40 +389,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -497,37 +462,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -651,33 +585,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -749,6 +656,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="748defff-9a0f-4be5-951a-a6ca43a84d1e" name="Default" comment="" />
@@ -766,64 +676,67 @@
       <workItem from="1486645501981" duration="118000" />
       <workItem from="1486645645117" duration="23000" />
       <workItem from="1487602429348" duration="103000" />
+      <workItem from="1488850208794" duration="2611000" />
+      <workItem from="1488864491051" duration="333000" />
+      <workItem from="1488873011015" duration="3323000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.11.10 at 10h 34m 22s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.11.10 at 10h 36m 40s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.11.10 at 12h 12m 09s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.11.10 at 12h 12m 27s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.11.10 at 12h 13m 06s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(ExampleTest) - 2016.12.28 at 11h 26m 32s.xml">
-      <configuration name="Run all tests (ExampleTest)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.02.09 at 08h 05m 49s.xml">
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 22m 14s.xml">
       <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.02.09 at 08h 06m 48s.xml">
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 23m 00s.xml">
       <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.02.09 at 08h 07m 43s.xml">
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 23m 25s.xml">
       <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.02.20 at 09h 55m 28s.xml">
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 24m 05s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 24m 39s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 27m 00s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 27m 56s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 34m 26s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 35m 01s.xml">
+      <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests_(classes-in-java-class-methods-continued) - 2017.03.07 at 08h 35m 26s.xml">
       <configuration name="Run all tests (classes-in-java-class-methods-continued)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7627000" />
+    <option name="totallyTimeSpent" value="13894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1635" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956687" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32671756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15881984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33117932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -866,6 +779,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,16 +891,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="418">
-            <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -990,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="95" column="74" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
           <folding />
         </state>
       </provider>
